@@ -1,10 +1,8 @@
 replicaCount: 1
 
 image:
-  repository: tazo90/k8s-app
-  pullPolicy: IfNotPresent
   tag: "0.0.3"
 
-service:
-  type: NodePort
-  port: 9000
+configmap:
+  data:
+    CUSTOM_HEADER: 'This is on the DEV environment!'
