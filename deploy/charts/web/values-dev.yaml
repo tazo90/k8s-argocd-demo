@@ -1,0 +1,10 @@
+replicaCount: 1
+
+image:
+  repository: tazo90/k8s-app
+  pullPolicy: IfNotPresent
+  tag: "0.0.3"
+
+service:
+  type: NodePort
+  port: 9000
