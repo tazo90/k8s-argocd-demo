@@ -1,0 +1,1 @@
+## Basic app deployed on Kubernetes via Helm and ArgoCD
