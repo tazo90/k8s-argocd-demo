@@ -1,8 +1,8 @@
-replicaCount: 2
+replicaCount: 5
 
 image:
   tag: "0.0.1"
 
 configmap:
   data:
-    CUSTOM_HEADER: 'This is my DEV web app'
+    CUSTOM_HEADER: 'This is my DEV web app!!!!!!!'
