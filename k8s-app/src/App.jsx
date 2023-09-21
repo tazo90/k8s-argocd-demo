@@ -14,7 +14,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>{import.meta.env.VITE_CUSTOM_HEADER}</h1>
+      <h1>{env.CUSTOM_HEADER}</h1>
     </>
   )
 }
