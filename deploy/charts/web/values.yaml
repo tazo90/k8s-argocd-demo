@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: tazo90/web
-  tag: "0.0.1"
+  tag: ""
 
 service:
   type: NodePort
@@ -11,4 +11,4 @@ service:
 configmap:
   name: web-configmap
   data:
-    CUSTOM_HEADER: 'This app was deployed with helm!'
+    CUSTOM_HEADER: 'This is my web app'

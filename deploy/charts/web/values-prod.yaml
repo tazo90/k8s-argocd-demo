@@ -1,8 +1,8 @@
-replicaCount: 2
+replicaCount: 4
 
 image:
   tag: "0.0.1"
 
 configmap:
   data:
-    CUSTOM_HEADER: 'This is on the PROD environment!'
+    CUSTOM_HEADER: 'This is my PROD web app'
