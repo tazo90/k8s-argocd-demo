@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: tazo90/k8s-app
+  repository: tazo90/web
   tag: "0.0.1"
 
 service:
@@ -9,6 +9,6 @@ service:
   port: 9000
 
 configmap:
-  name: k8s-app-configmap
+  name: web-configmap
   data:
     CUSTOM_HEADER: 'This app was deployed with helm!'
