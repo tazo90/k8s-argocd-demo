@@ -11,4 +11,4 @@ service:
 configmap:
   name: web-configmap
   data:
-    CUSTOM_HEADER: 'This is my web app'
+    CUSTOM_HEADER: ""
